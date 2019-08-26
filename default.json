@@ -1,0 +1,7 @@
+{
+    "branchPrefix": "renovate_",
+    "packageRules": [{
+        "managers": ["maven"],
+        "registryUrls": ["https://ops-artifactory.sparkcentral.ninja/artifactory/sparkcentral"]
+    }]
+}
