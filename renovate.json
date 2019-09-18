@@ -1,4 +1,5 @@
 {
+    "extends": ["config:base"],
     "branchPrefix": "renovate_",
     "packageRules": [{
         "managers": ["maven"],
