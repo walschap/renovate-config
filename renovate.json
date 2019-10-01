@@ -4,5 +4,11 @@
     "packageRules": [{
         "managers": ["maven"],
         "registryUrls": ["https://ops-artifactory.sparkcentral.ninja/artifactory/sparkcentral"]
-    }]
+    }],
+    "dockerfile": {
+        "reviewers": [
+            "driesdepeuter_sc",
+            "johanv_sc"
+        ]
+    }
 }
