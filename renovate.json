@@ -10,5 +10,8 @@
             "driesdepeuter_sc",
             "johanv_sc"
         ]
+    },
+    "gradle": {
+        "versionScheme": "docker"
     }
 }
