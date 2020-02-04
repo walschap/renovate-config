@@ -9,7 +9,8 @@
         {
             "managers": ["docker", "dockerfile", "docker-compose"],
             "updateTypes": ["minor", "patch", "digest"],
-            "automerge": true
+            "automerge": true,
+            "automergeType": "branch"
         }
     ],
     "dockerfile": {
