@@ -7,7 +7,7 @@
             "registryUrls": ["https://ops-artifactory.sparkcentral.ninja/artifactory/sparkcentral"]
         },
         {
-            "managers": ["docker"],
+            "managers": ["docker", "dockerfile", "docker-compose"],
             "updateTypes": ["minor", "patch", "digest"],
             "automerge": true
         }
