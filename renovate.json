@@ -1,10 +1,17 @@
 {
     "extends": ["config:base"],
     "branchPrefix": "renovate_",
-    "packageRules": [{
-        "managers": ["maven"],
-        "registryUrls": ["https://ops-artifactory.sparkcentral.ninja/artifactory/sparkcentral"]
-    }],
+    "packageRules": [
+        {
+            "managers": ["maven"],
+            "registryUrls": ["https://ops-artifactory.sparkcentral.ninja/artifactory/sparkcentral"]
+        },
+        {
+            "managers": ["docker"],
+            "updateTypes": ["minor", "patch", "digest"],
+            "automerge": true
+        }
+    ],
     "dockerfile": {
         "reviewers": [
             "driesdepeuter_sc",
