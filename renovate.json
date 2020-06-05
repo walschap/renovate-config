@@ -20,7 +20,7 @@
     ],
     "dockerfile": {
         "reviewers": [
-            "driesdepeuter_sc",
+            "kristof.l",
             "johanv_sc"
         ]
     },
