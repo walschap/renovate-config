@@ -4,7 +4,7 @@
     "packageRules": [
         {
             "managers": ["maven"],
-            "registryUrls": ["https://ops-artifactory.sparkcentral.ninja/artifactory/sparkcentral"]
+            "registryUrls": ["https://artifacts.sparkcentral.ninja/artifactory/sparkcentral"]
         },
         {
             "managers": ["docker", "dockerfile", "docker-compose"],
