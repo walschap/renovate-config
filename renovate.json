@@ -11,11 +11,6 @@
             "updateTypes": ["minor", "patch", "digest"],
             "automerge": true,
             "automergeType": "branch"
-        },
-        {
-            "packagePatterns": ["^eslint"],
-            "groupName": "eslint",
-            "automerge": false
         }
     ],
     "dockerfile": {
