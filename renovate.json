@@ -1,6 +1,7 @@
 {
     "extends": ["config:base"],
     "branchPrefix": "renovate_",
+    "exposeAllEnv": true,
     "packageRules": [
         {
             "managers": ["maven"],
