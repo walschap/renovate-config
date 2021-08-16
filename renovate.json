@@ -4,7 +4,7 @@
     "exposeAllEnv": true,
     "packageRules": [
         {
-            "managers": ["maven"],
+            "managers": ["gradle"],
             "registryUrls": ["https://artifacts.sparkcentral.ninja/artifactory/sparkcentral"]
         },
         {
