@@ -1,0 +1,26 @@
+{
+    "extends": ["config:base"],
+    "branchPrefix": "renovate_",
+    "exposeAllEnv": true,
+    "packageRules": [
+        {
+            "managers": ["gradle"],
+            "registryUrls": ["https://artifacts.sparkcentral.ninja/artifactory/sparkcentral"]
+        },
+        {
+            "managers": ["docker", "dockerfile", "docker-compose"],
+            "updateTypes": ["minor", "patch", "digest"],
+            "automerge": true,
+            "automergeType": "branch"
+        }
+    ],
+    "dockerfile": {
+        "reviewers": [
+            "kristof.l",
+            "johanv_sc"
+        ]
+    },
+    "gradle": {
+        "versionScheme": "docker"
+    }
+}
