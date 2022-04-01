@@ -16,8 +16,8 @@
     ],
     "dockerfile": {
         "reviewers": [
-            "kristof.l",
-            "johanv_sc"
+            "kristof_lemmens",
+            "johan_vandeweerd"
         ]
     },
     "gradle": {
