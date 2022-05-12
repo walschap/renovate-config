@@ -5,7 +5,10 @@
     "packageRules": [
         {
             "managers": ["gradle"],
-            "registryUrls": ["https://artifacts.sparkcentral.ninja/artifactory/sparkcentral"]
+            "registryUrls": [
+                "https://artifacts.sparkcentral.ninja/artifactory/sparkcentral",
+                "https://artifactory.hootops.com/artifactory/hootsuite-mvn"
+            ]
         },
         {
             "managers": ["docker", "dockerfile", "docker-compose"],
